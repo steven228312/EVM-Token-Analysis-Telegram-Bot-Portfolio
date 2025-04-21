@@ -2,6 +2,10 @@
 
 A powerful Telegram bot for real-time analysis of EVM-compatible blockchain tokens, providing detailed insights and analytics for crypto traders, investors, and researchers.
 
+<p align="center">
+  <img src="https://github.com/stevendev0822/EVM-Token-Analysis-Telegram-Bot-Portfolio/blob/main/EVM%20Token%20Analysis%20Bot.gif" alt="Main Menu">
+</p>
+
 ## 🔍 Overview
 
 This advanced blockchain analytics bot connects to multiple data sources (primarily Dune Analytics) to fetch and analyze token information across Ethereum, Binance Smart Chain (BSC), and Base networks. Users can query comprehensive token information directly through Telegram, making on-chain data analysis accessible and convenient for everyone.
