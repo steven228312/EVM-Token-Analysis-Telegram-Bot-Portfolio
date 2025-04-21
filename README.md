@@ -1,12 +1,12 @@
-# EVM-Token-Analysis-Telegram-Bot-Portfolio
+# EVM-Token-Analysis-Telegram-Bot
 
-A powerful Telegram bot for analyzing EVM-compatible blockchain tokens, providing detailed insights and analytics for crypto traders, investors, and researchers.
+A powerful Telegram bot for real-time analysis of EVM-compatible blockchain tokens, providing detailed insights and analytics for crypto traders, investors, and researchers.
 
-## Overview
+## 🔍 Overview
 
-This bot connects to blockchain data sources (primarily Dune Analytics) to fetch and analyze token information across multiple EVM chains including Ethereum, BSC, and Base. Users can query token information directly through Telegram, making blockchain data analysis accessible and convenient.
+This advanced blockchain analytics bot connects to multiple data sources (primarily Dune Analytics) to fetch and analyze token information across Ethereum, Binance Smart Chain (BSC), and Base networks. Users can query comprehensive token information directly through Telegram, making on-chain data analysis accessible and convenient for everyone.
 
-## Key Features
+## ✨ Key Features
 
 ### Free Features
 - **First Buyers & Profits Analysis**: View the first 1-50 wallets that bought a token with detailed statistics including buy & sell amounts, total trades, PNL, and win rate (3 token scans/day)
@@ -21,10 +21,10 @@ This bot connects to blockchain data sources (primarily Dune Analytics) to fetch
 
 ### Technical Features
 - **Multi-Chain Support**: Analyze tokens across Ethereum, Binance Smart Chain, and Base networks
-- **Caching System**: Efficient data retrieval with smart caching to minimize API calls
+- **Intelligent Caching System**: Efficient data retrieval with smart caching to minimize API calls
 - **Real-time Updates**: Receive timely information directly in Telegram
 
-## Installation
+## 🚀 Installation
 
 ### Prerequisites
 
@@ -53,7 +53,6 @@ pip install -r requirements.txt
 ```
 
 4. Create a `.env` file with your credentials:
-
 
 ```bash
 # DB Configuration
@@ -103,7 +102,7 @@ ETHERSCAN_API_KEY=your_etherscan_api_key_here
 python src/main.py
 ```
 
-## Usage
+## 📱 Usage
 
 1. Start a chat with the bot on Telegram
 2. Select your desired network (ETH, BSC, or Base)
@@ -114,14 +113,14 @@ python src/main.py
 
 4. The bot will respond with detailed analysis about the token based on the selected feature
 
-## Tips for Best Results
+## 💡 Tips for Best Results
 - Always use the correct contract address for tokens
 - Select the right network for your token (ETH, BSC, Base)
 - For premium features, ensure your subscription is active
 
-## API Reference
+## 🔌 API Reference
 
-The bot uses several API endpoints to gather data:
+The bot uses several API endpoints to gather comprehensive blockchain data:
 
 - **Token Deployer Projects**: Fetches all tokens deployed by the same address
 - **First Buyers Analysis**: Retrieves data about the earliest token purchasers
@@ -129,7 +128,7 @@ The bot uses several API endpoints to gather data:
 - **Market Cap Data**: Retrieves historical market cap information
 - **Holder Analysis**: Identifies and analyzes significant token holders
 
-## Architecture
+## 🏗️ Architecture
 
 The application follows a modular architecture:
 - API layer for external data sources (primarily Dune Analytics)
@@ -137,13 +136,13 @@ The application follows a modular architecture:
 - Telegram bot interface for user interaction
 - Subscription management for premium features
 
-## Subscription Model
+## 💎 Subscription Model
 
 The bot operates on a freemium model:
 - **Free Tier**: Access to basic features with daily usage limits (3 token scans/day)
 - **Premium Tier**: Unlimited access to all features including exclusive premium analytics
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -153,11 +152,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## License
+## 📄 License
 
 This project is licensed under the [MIT License](./LICENSE)
 
-## Contact Information
+## 📞 Contact Information
 
 - Gmail: [steven0822.dev@gmail.com](mailto:steven0822.dev@gmail.com)
 - GitHub: [Steven Leal(stevendev0822)](https://github.com/stevendev0822)
@@ -165,8 +164,6 @@ This project is licensed under the [MIT License](./LICENSE)
 - Twitter: [@stevendev0822](https://twitter.com/stevendev0822)
 - Instagram: [@stevendev0822](https://www.instagram.com/stevendev0822/)
 
-## Keywords
+## 🔑 Keywords
 
-blockchain, cryptocurrency, token analysis, EVM, Ethereum, BSC, Base, Telegram bot, crypto trading, DeFi, token metrics, market cap analysis, whale watching, token deployer, blockchain analytics, crypto research, profit analysis, holder analysis, on-chain data, smart contract, web3, crypto investment, token scanner, blockchain explorer, crypto API, Dune Analytics, Moralis, wallet tracking, crypto portfolio
-
-
+blockchain analysis, cryptocurrency tracking, token analytics, EVM networks, Ethereum scanner, BSC analysis, Base chain, Telegram crypto bot, crypto trading tools, DeFi analytics, token metrics, market cap tracker, whale watching, token deployer analysis, blockchain intelligence, crypto research platform, profit analysis, holder analysis, on-chain data, smart contract scanner, web3 tools, crypto investment analysis, token scanner, blockchain explorer, crypto API integration, Dune Analytics, Moralis integration, wallet tracking, crypto portfolio management, token security analysis, DEX trading analysis, crypto market intelligence, blockchain data visualization, token price alerts, crypto whale alerts
